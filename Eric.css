@@ -72,6 +72,10 @@ body {
 	text-align: center;
 }
 
+#nav ul {
+	    padding-inline-start: 0;
+}
+
 #nav li {
 	animation: nav-icons 0.5s ease-in-out forwards;
 	backface-visibility: hidden;
@@ -247,7 +251,7 @@ a {
 			line-height: 3.85em;
 			top: 0;
 			width: 5em;
-			margin: 1em 0.75em;
+			margin: 0.5em 0.25em;
 		}
 
 		#nav li a:before {
